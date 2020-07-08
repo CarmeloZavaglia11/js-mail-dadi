@@ -5,6 +5,15 @@ body{
   background-color: black;
 }
 
+.screen {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/forest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .box{
   width: 600px;
   padding: 40px;
@@ -15,6 +24,7 @@ body{
   background: #070707;
   text-align: center;
   border-radius: 25px;
+  box-shadow: 0 0 14px #2f292d;
 }
 
 .box h1{
