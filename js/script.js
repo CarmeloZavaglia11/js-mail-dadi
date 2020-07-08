@@ -7,7 +7,7 @@ var mails = ['francescoz@gmail.com', 'flaviorenna@hotmail.it', 'luigipira84@yaho
 
 function check() {
     var mailUtente = document.getElementById('email').value;
-    var testaccesso = false;
+    var testAccesso = false;
 
     if (mailUtente == '') {
         alert('Non lasciare il campo vuoto');
