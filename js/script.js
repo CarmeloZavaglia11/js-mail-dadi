@@ -16,12 +16,11 @@ function check() {
 
     for (i = 0; i < mails.length; i++) {
         if (mails[i] == mailUtente) {
-            testaccesso = true;
-            break;
+            testAccesso = true;
         }
     }
 
-    if (testaccesso == true) {
+    if (testAccesso == true) {
         alert('Accesso Consentito');
     } else {
         alert('Accesso Negato');
