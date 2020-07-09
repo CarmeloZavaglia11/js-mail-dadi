@@ -28,5 +28,5 @@ function check() {
 }
 
 function redirectDadi() {
-  location.replace("../../js-mail-dadi/play-dadi/index.html")
+  location.replace("../play-dadi/index.html")
 }
