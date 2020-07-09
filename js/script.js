@@ -20,7 +20,7 @@ function check() {
         }
     }
 
-    if (testAccesso == true) {
+    if (testAccesso) {
         alert('Accesso Consentito');
     } else {
         alert('Accesso Negato');
