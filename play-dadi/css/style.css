@@ -59,6 +59,10 @@ button:hover {
     color: black;
 }
 
+button:focus {
+    outline: 0;
+}
+
 .dado {
     width: 150px;
     height: 150px;
@@ -67,4 +71,9 @@ button:hover {
 #esito {
     color: white;
     text-transform: uppercase;
+}
+
+#img-giocatore,
+#img-computer {
+    transition: 2s ease-in-out;
 }

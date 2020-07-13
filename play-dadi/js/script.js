@@ -4,7 +4,8 @@
 
 var giocatore = prompt('Prima di iniziare il gioco vorrei sapere il tuo nome');
 if (giocatore == "") {
-    document.getElementById('giocatore').innerHTML = 'Giocatore Uno';
+    giocatore = 'giocatore uno';
+    document.getElementById('giocatore').innerHTML = giocatore;
 } else {
     document.getElementById('giocatore').innerHTML = giocatore;
 }
